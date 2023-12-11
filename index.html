@@ -87,7 +87,7 @@
                 lineCap: 'round',  // shape of the stroke end
               }
             }, {  // another class
-              classMinValue: 850,
+              classMinValue: 400,
               classMaxValue: 899,
               symbol: {
                 strokeStyle: '#B21D63',
@@ -95,8 +95,8 @@
                 lineCap: 'round',
               }
             }, {  // one more class
-              classMinValue: 800,
-              classMaxValue: 849,
+              classMinValue: 399,
+              classMaxValue: 149,
               symbol: {
                 strokeStyle: '#CA2070',
                 lineWidth: 3.5,
@@ -120,7 +120,7 @@
 
           title.onAdd = function (map) {
               this._div = L.DomUtil.create('div', 'title'); // create a div with a class "title"
-              this._div.innerHTML = "<h3>TOP 10 Net Migration to Cook County, Illinois</h3>";  // Title text, may use html to customize
+              this._div.innerHTML = "<h3>TOP 10 Net Migration to Cook County, Illinois (Top 3 Highlighted)</h3>";  // Title text, may use html to customize
               return this._div;
           };
 
